@@ -1,6 +1,6 @@
-let pluses = document.querySelectorAll(".box-container  .plus");
-let minus = document.querySelectorAll(".box-container .minus");
-let paragraph = document.querySelectorAll(".box-container p");
+let pluses = document.querySelectorAll(".plus");
+let minus = document.querySelectorAll(" .minus");
+let paragraph = document.querySelectorAll("p");
 
 for (let i = 0; i < pluses.length; i++) {
   pluses[i].addEventListener("click", () => {
